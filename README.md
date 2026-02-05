@@ -104,9 +104,9 @@ fun main() {
         val custoFinal = total * 1.25f
         val lucroReal = custoFinal - lucro
 
-        println("Custo final da obra: R$ $custoFinal")
-        println("Lucro da empresa (25%): R$ $lucroReal")
-
+         println("Total mão de obra: R$ " + "%.2f".format(subtotal))
+        println("Custo final da obra: R$ " + "%.2f".format(custoFinal))
+        println("Lucro da empresa (25%): R$ " + "%.2f".format(lucroReal))
     } else {
         println("Erro ao contratar o serviço. Para o contrato, o terreno deve ter mais de 10m². ")
     }
